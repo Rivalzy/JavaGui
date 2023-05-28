@@ -17,19 +17,32 @@ public class Header extends javax.swing.JPanel {
     private void initComponents() {
 
         panelRound2 = new Swing.PanelRound();
+        jLabel1 = new javax.swing.JLabel();
 
-        panelRound2.setRoundBottomLeft(50);
+        setBackground(new java.awt.Color(255, 247, 232));
+
         panelRound2.setRoundBottomRight(50);
+
+        jLabel1.setBackground(new java.awt.Color(255, 247, 232));
+        jLabel1.setFont(new java.awt.Font("Segoe Print", 3, 30)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 247, 232));
+        jLabel1.setText("SOKKIN CAFE");
 
         javax.swing.GroupLayout panelRound2Layout = new javax.swing.GroupLayout(panelRound2);
         panelRound2.setLayout(panelRound2Layout);
         panelRound2Layout.setHorizontalGroup(
             panelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 833, Short.MAX_VALUE)
+            .addGroup(panelRound2Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(773, Short.MAX_VALUE))
         );
         panelRound2Layout.setVerticalGroup(
             panelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRound2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(14, 14, 14))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -46,6 +59,7 @@ public class Header extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private Swing.PanelRound panelRound2;
     // End of variables declaration//GEN-END:variables
 }

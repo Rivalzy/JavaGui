@@ -41,6 +41,7 @@ public class SBar extends javax.swing.JPanel {
             }
         });
         panel.add(item, "w 55!, h 55!");
+        
     }
     
     public void addEvent(EventSBar event) {
@@ -57,6 +58,8 @@ public class SBar extends javax.swing.JPanel {
     private void initComponents() {
 
         panel = new Swing.PanelRound();
+
+        setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         panel.setBackground(new java.awt.Color(10, 10, 10));
         panel.setRoundBottomRight(50);

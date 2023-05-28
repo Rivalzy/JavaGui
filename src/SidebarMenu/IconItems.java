@@ -57,6 +57,10 @@ public class IconItems extends JButton{
         g2.drawImage(image, x, y, imageSize.width, imageSize.height, null);
         super.paintComponent(g);
     }
+
+    void setCursor(int HAND_CURSOR) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
 }
