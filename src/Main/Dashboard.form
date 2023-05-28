@@ -4,6 +4,16 @@
   <NonVisualComponents>
     <Component class="Swing.Header" name="header">
     </Component>
+    <Component class="javax.swing.JLabel" name="Exit">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Icon/exit.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ExitMouseClicked"/>
+      </Events>
+    </Component>
     <Component class="SidebarMenu.SBar" name="sBar1">
     </Component>
     <Component class="Swing.ListItems" name="LsItem">

@@ -63,11 +63,11 @@ public class Form2 extends javax.swing.JPanel {
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(49, 48, 46));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setText("Strawberry Cake");
+        jLabel6.setText("Cappucinno Coffe");
 
         jLabel7.setBackground(new java.awt.Color(49, 48, 46));
         jLabel7.setForeground(new java.awt.Color(49, 48, 46));
-        jLabel7.setText("Rp.45,000");
+        jLabel7.setText("Rp.30,000");
 
         jSpinner1.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
@@ -129,11 +129,11 @@ public class Form2 extends javax.swing.JPanel {
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(49, 48, 46));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("Pizza");
+        jLabel10.setText("Cold Coffe");
 
         jLabel11.setBackground(new java.awt.Color(49, 48, 46));
         jLabel11.setForeground(new java.awt.Color(49, 48, 46));
-        jLabel11.setText("Rp.60,000");
+        jLabel11.setText("Rp.40,000");
 
         jSpinner2.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
@@ -195,11 +195,11 @@ public class Form2 extends javax.swing.JPanel {
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(49, 48, 46));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("Noodles");
+        jLabel15.setText("Chocolate Coffe");
 
         jLabel16.setBackground(new java.awt.Color(49, 48, 46));
         jLabel16.setForeground(new java.awt.Color(49, 48, 46));
-        jLabel16.setText("Rp.35,000");
+        jLabel16.setText("Rp.50,000");
 
         jSpinner3.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
@@ -272,9 +272,8 @@ public class Form2 extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(154, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
@@ -43,10 +43,8 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jPanel3" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jPanel1" max="32767" attributes="0"/>
-                      <Component id="jPanel2" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="154" max="32767" attributes="0"/>
           </Group>
@@ -157,7 +155,7 @@
               <Color blue="2e" green="30" red="31" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Strawberry Cake"/>
+            <Property name="text" type="java.lang.String" value="Cappucinno Coffe"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
@@ -168,7 +166,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="2e" green="30" red="31" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Rp.45,000"/>
+            <Property name="text" type="java.lang.String" value="Rp.30,000"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="jSpinner1">
@@ -280,7 +278,7 @@
               <Color blue="2e" green="30" red="31" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Pizza"/>
+            <Property name="text" type="java.lang.String" value="Cold Coffe"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel11">
@@ -291,7 +289,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="2e" green="30" red="31" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Rp.60,000"/>
+            <Property name="text" type="java.lang.String" value="Rp.40,000"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="jSpinner2">
@@ -403,7 +401,7 @@
               <Color blue="2e" green="30" red="31" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Noodles"/>
+            <Property name="text" type="java.lang.String" value="Chocolate Coffe"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel16">
@@ -414,7 +412,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="2e" green="30" red="31" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Rp.35,000"/>
+            <Property name="text" type="java.lang.String" value="Rp.50,000"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="jSpinner3">
