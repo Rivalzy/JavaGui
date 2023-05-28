@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
- */
+
 package Swing;
 
 /**
@@ -38,6 +35,7 @@ public class Footer extends javax.swing.JPanel {
 
         panelRound1.setRoundTopRight(50);
 
+        BtnCetak.setBackground(new java.awt.Color(255, 215, 126));
         BtnCetak.setText("CETAK STRUK");
         BtnCetak.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         BtnCetak.addActionListener(new java.awt.event.ActionListener() {
@@ -46,9 +44,12 @@ public class Footer extends javax.swing.JPanel {
             }
         });
 
+        BtnHapus.setBackground(new java.awt.Color(255, 13, 13));
+        BtnHapus.setForeground(new java.awt.Color(255, 255, 255));
         BtnHapus.setText("HAPUS");
         BtnHapus.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        BtnTotal.setBackground(new java.awt.Color(67, 142, 25));
         BtnTotal.setText("TOTAL");
         BtnTotal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         BtnTotal.addActionListener(new java.awt.event.ActionListener() {
@@ -64,6 +65,7 @@ public class Footer extends javax.swing.JPanel {
             }
         });
 
+        BtnBayar.setBackground(new java.awt.Color(91, 255, 0));
         BtnBayar.setText("BAYAR");
         BtnBayar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -90,12 +92,12 @@ public class Footer extends javax.swing.JPanel {
                 .addGap(16, 16, 16)
                 .addGroup(panelRound1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(BtnCetak, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(panelRound1Layout.createSequentialGroup()
+                        .addGap(2, 2, 2)
+                        .addComponent(BtnBayar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(panelRound1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(BtnTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(panelRound1Layout.createSequentialGroup()
-                            .addGap(2, 2, 2)
-                            .addComponent(BtnBayar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(BtnHapus, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(19, Short.MAX_VALUE))
         );
