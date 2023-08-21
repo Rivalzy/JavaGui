@@ -21,8 +21,6 @@ public class Footer extends javax.swing.JPanel {
     
     
     
-    
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -136,8 +134,8 @@ public class Footer extends javax.swing.JPanel {
 
     private void BtnHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnHapusActionPerformed
         // TODO add your handling code here:
-        Form1 hps = new Form1();
-        hps.hapus();
+        Form1 spin = new Form1();
+        spin.del();
     }//GEN-LAST:event_BtnHapusActionPerformed
 
 
